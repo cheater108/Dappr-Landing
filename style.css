@@ -92,21 +92,25 @@ nav {
 }
 .textbox {
     background-color: #e5d8ff;
+    /* display: block; */
+    border: none;
     border-radius: 20px;
     padding: 1em;
     font-family: DM Sans;
     font-weight: 400;
     color: #6f7373;
     font-size: 1.8rem;
-
+    flex-grow: 1;
     box-shadow: 3px 5px 27px 0px #00000040 inset;
+    resize: none;
 }
 
 .absolute-container {
     position: absolute;
     top: 280px;
     right: 10px;
-    height: 140vh;
+    height: 170vh;
+    max-height: 1120px;
 }
 
 .socials {
@@ -140,7 +144,7 @@ nav {
     font-weight: 700;
     color: white;
     justify-content: space-between;
-    margin-bottom: 150px;
+    margin-bottom: 140px;
 }
 
 .card {
@@ -180,13 +184,15 @@ nav {
     /* padding: 2em 0; */
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    /* gap: 4em; */
     justify-content: space-around;
 }
 
 .left-section div {
     font-size: 1.5rem;
     font-weight: 700;
-    padding: 1em 2.1em;
+    padding: 1.3em 2.1em;
     text-align: center;
     border-radius: 10px;
 
@@ -221,7 +227,7 @@ nav {
 .right-section p {
     font-size: 1.3rem;
     font-weight: 400;
-    margin-bottom: 0.8em;
+    margin-bottom: 1.5em;
     margin-left: 2em;
 }
 .right-section span {
@@ -245,7 +251,7 @@ nav {
     border: none;
     font-size: 1.8rem;
     font-family: Roboto;
-    padding: 0.5em 2em;
+    padding: 0.5em 1.5em;
     border-radius: 10px;
     margin-left: auto;
     margin-top: 3em;
